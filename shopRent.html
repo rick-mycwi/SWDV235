@@ -1,0 +1,120 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico"> 
+	
+    <title>Shop Share Shop Rent</title>
+
+        <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<!-- Custom styles for this template -->
+    <link href="styles/shopStyles.css" rel="stylesheet">
+	<script src="scripts/shopScripts.js"></script>
+	
+</head>
+
+  <body>
+
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+             <!-- nav for renters -->
+            <ul>
+             <li class="navHead">Available for Rent</li>
+             <li><a href="shopRent.html" class="shopRentLink">Shop Space</a></li>
+             <li><a href="toolRent.html" class="toolRentLink">Tools</a></li>
+             <li><a href="setupRent.html" class="setupRentLink">Shop Package</a></li>
+            </ul>
+
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <!-- nav for owners -->
+            <ul>
+             <li class="navHead">Submit yours to Rent</li>
+             <li><a href="shopSubmit.html" class="shopSubmitLink">Shop Space</a></li>
+             <li><a href="toolSubmit.html" class="toolSubmitLink">Tools</a></li>
+             <li><a href="setupSubmit.html" class="setupSubmitLink">Shop Package</a></li>
+            </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Listings</strong>
+          </a>
+		  <a href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+<!-- main content -->
+<main role="main">
+
+<h1>Search Shops For Rent</h1>
+<form class="subform"  method="post" action="submit.html">
+	<p>
+		<label for="name" class="label">What is your name?</label>
+		<input type="text" name="name" id="name">
+	</p>
+	<p>
+		<label for="email" class="label">What is your email address?</label>
+		<input type="text" name="email" id="email">
+	</p>
+	<p>
+		<label for="zip" class="label">What zip do you need to rent shop space?</label>
+		<input type="text" name="zip" id="zip">
+	</p>
+	<p>
+		<label for="needs" class="label">What amenities do you need? </label>
+		<input type="text" name="needs" id="needs">
+	</p>
+	<p>
+		<label for="comments" class="label">Any additional comments? </label>
+		<textarea name="comments" cols="35" rows="4" id="comments"></textarea>
+	</p>
+	<button type="button" class="btn btn-sm btn-outline-secondary">map</button>
+</form><br>		
+    <label>&nbsp;Would you like to calculate average rents</label>	
+           <input type="button" id="calculate" value="Calculate">
+</main>
+
+   <footer class="text-muted">
+   <div class="container">
+   <div id="social">
+   <p>Connect:</p>
+   <p><a href="https://www.twitter.com"><img src="images/twitter.PNG" alt="Twitter logo"></a>
+   <a href="https://www.facebook.com"><img src="images/facebook.PNG" alt="Facebook logo"></a>
+   <a href="https://www.linkedin.com"><img src="images/linkedin.PNG" alt="Linkedin logo"></a>
+   <a href="https://github.com"><img src="images/github.PNG" alt="GitHub logo"></a></p>
+   </div>
+ 
+   <!-- nav for users -->
+   <ul class="userNav">
+   <li><a href="index.html" class="homeLink">home</a></li>
+   <li><a href="about.html" class="aboutLink">about</a></li>
+   <li><a href="contact.aspx" class="contactLink">contact</a></li>
+   <li><a href="help.html" class="helpLink">help</a></li>
+   </ul>
+   <p class="float-right">
+   <a href="#">Back to top</a>
+   </p>
+   <p>Copyright 2018, Shop Share</p> 
+</footer>
+</div>
+</body>
+</html>
